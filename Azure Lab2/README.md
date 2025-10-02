@@ -1,4 +1,4 @@
-# Lab 2 - Control Traffic with NSGs (Windows VMs)
+# Lab 2 - in this lab I practised creating a Vnet and 2 subnets, added a vm in each subnet and later configured a NSG to restrict the ICMP ie ping command from VM1 to VM2 and only allow Remote desktop connection.
 
 ## 🎯 Goal
 Use Network Security Groups (NSGs) to control inbound traffic to a subnet so that VM2 only allows RDP (3389) and blocks all other traffic.
