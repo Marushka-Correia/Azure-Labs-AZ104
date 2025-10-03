@@ -1,4 +1,4 @@
-### Lab 5 - Hub-and-spoke Network
+### Lab 5 - Hub-and-spoke Network Architecture
 ### This lab was a lot of fun since I tried out something new. The hub and spoke network which basically is a central Vnet (hub) connected to multiple Vnets(spokes) using peering. there is no peering created between any of the spokes unless necessary. This Network architecture keeps configuration central and no messy unnecessary peering between unwanted Vnets
 
 
