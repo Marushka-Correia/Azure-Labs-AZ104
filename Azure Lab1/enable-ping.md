@@ -8,4 +8,11 @@ By default, Windows Server blocks ICMP (ping). To allow ping:
 4. Find rule: **File and Printer Sharing (Echo Request - ICMPv4-In)**.
 5. Right-click → **Enable Rule**.
 
-✅ Now VM2 will respond to ping requests from VM1.
+
+or 
+
+since this is a beginner friendly lab (not recommended)
+1) go to settings
+2) turn off windows firewall for both VMs
+   
+ Now VM2 will respond to ping requests from VM1.
