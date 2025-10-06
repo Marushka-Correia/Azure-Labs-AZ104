@@ -53,6 +53,6 @@ The above connection keeps checking if Vm1 is able to connect to Vm2 via port 33
 
 ### Success Criteria
 
-Successful cases shown as 1: which means the VM1 was successfully able to connect to VM@
+Successful cases shown as 1: which means the VM1 was successfully able to connect to VM2
 
 
