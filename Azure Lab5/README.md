@@ -14,21 +14,21 @@
 Step 1: Create VNet1
 - Name: VNet1
 - Address space: 10.1.0.0/16
-- Subnet: Subnet1 → 10.1.1.0/24
-- Deploy VM1 into VNet1 → Subnet1.
+- Subnet: Subnet1 -> 10.1.1.0/24
+- Deploy VM1 into VNet1 -> Subnet1.
 
 Step 2: Create VNet2
 - Name: VNet2
 - Address space: 10.2.0.0/16
-- Subnet: Subnet2 → 10.2.1.0/24
-- Deploy VM2 into VNet2 → Subnet2.
+- Subnet: Subnet2 -> 10.2.1.0/24
+- Deploy VM2 into VNet2 -> Subnet2.
 
 Step 3: Configure VNet Peering
-- From VNet1 → Peerings → + Add:
+- From VNet1 → Peerings -> + Add:
 - Name: VNet1toVNet2
 - Remote VNet: VNet2
 - Allow virtual network access: Enabled
-- From VNet2 → Peerings → + Add:
+- From VNet2 → Peerings -> + Add:
 - Name: VNet2toVNet1
 - Remote VNet: VNet1
 - Allow virtual network access: Enabled
