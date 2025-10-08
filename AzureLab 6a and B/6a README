@@ -1,7 +1,7 @@
 ### Lab 6a -Deploying a Network Watcher
 
 ### In this lab, I tried to enable a network watcher to monitor the VMs connected via VNet-Peering
-🎯 Goal
+ Goal
 
 ### Create two VNets with different IP address ranges.
 
