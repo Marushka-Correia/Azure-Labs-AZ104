@@ -1,14 +1,13 @@
-# Lab 3 - In this lab i practised associating an application security group to the VMs, by doing this, instead of specifying IP addresses for the Network security groups(NSG), i could directly associate all resources connected with the ASG.
-## 🎯 Goal
+# Lab 3 - In this lab i practised associating an application security group to the VMs, by doing this, instead of specifying IP addresses for the Network security groups(NSG), i could directly associate all resources connected with that ASG.
+## Goal
 Use Application Security Groups (ASGs) to control inbound traffic so that:
 
 VM1 (Web tier) can connect to VM2 (DB tier) on SQL port 1433.
 
 All other traffic is blocked.
 
----
 
-## 📝 Steps
+## Steps
 
 ### Step 1: Create Application Security Groups
 - Create ASG-Web and associate it with VM1’s NIC.
@@ -39,7 +38,7 @@ All other traffic is blocked.
 
 ---
 
-## ✅ Success Criteria
+##  Success Criteria
 - VM1 (ASG-Web) can only reach VM2 (ASG-DB) on port 1433.
 - All other traffic (RDP, Ping, etc.) is blocked by the NSG.
 
