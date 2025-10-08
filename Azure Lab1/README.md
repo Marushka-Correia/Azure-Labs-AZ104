@@ -19,7 +19,7 @@ Create a Virtual Network with two subnets and deploy two **Windows VMs**. Verify
 - VM1 → Subnet1
 - VM2 → Subnet2
 - Image: Windows Server 2022 Datacenter
-- Administrator username/password → choose your own
+- Administrator username/password -> i added azureUser1
 - Allow inbound port: RDP (3389)
 
 ### Step 4: Verify Connectivity
@@ -27,18 +27,15 @@ Create a Virtual Network with two subnets and deploy two **Windows VMs**. Verify
 2. Inside VM1 → open Command Prompt.
 3. Get VM2's private IP from Azure Portal.
 4. Ping VM2's private IP:
-   ```cmd
-   ping <VM2_Private_IP>
-   ```
+  - ping <VM2_Private_IP>
+  
 5. Ping VM2 by hostname (Azure DNS):
-   ```cmd
-   ping VM2
-   ```
-
+   - ping VM2
+   
 Note: Windows blocks ping by default. You must enable ICMP Echo Request on VM2 or Turn off windows firewall(not recommended) for VM2 and VM2
 
 ---
 
 ## results
 - VM1 connects via RDP.
-- VM1 can ping VM2 using **Private IP** and **VM name** after enabling ICMP inbound rule on VM2.
+- VM1 can ping VM2 using its private IP and VM name after enabling ICMP inbound rule on VM2.
