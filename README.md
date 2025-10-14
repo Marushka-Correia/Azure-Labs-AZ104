@@ -1,2 +1,1 @@
-# azure-Practice-Labs
-Since AZ-104 can feel a bit intimidating at first, here are some beginner-friendly labs that helped me build confidence and gain the knowledge I needed to pass my exam. 
+### I’ve been building hands-on Azure labs focused on real-world cloud administration — from deploying and managing virtual machines, networks, and storage, to configuring monitoring, identity, and security. Through these labs, I’ve strengthened my practical understanding of Azure infrastructure and operations while sharing what I learn to help others grow too.
