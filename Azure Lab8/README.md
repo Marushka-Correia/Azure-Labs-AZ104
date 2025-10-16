@@ -1,6 +1,6 @@
-### Lab 7 - Connecting to a VM using Azure Bastion
+### Lab 8 - Using routing tables and a firewall
 
-### In this Lab I tried to connect to my Virtual Machine via Azure Bastion and not the usual way by using public IP of the VM.
+### In this Lab I tried to deploy a Firewall to prevent/allow the VM from accessing certain applications.
 
 ### Steps
 Step 1: Create VNet
