@@ -1,6 +1,6 @@
 ### Lab 9 - Private EndPoints
 
-### In this lab, I tried a concept I came across while preparing for my AZ104 exam, that is private endpoints and Private DNS zones.
+### In this lab, I tried a concept I came across while preparing for my AZ104 exam, that is: private endpoints and Private DNS zones.
 
 
 ### Steps
