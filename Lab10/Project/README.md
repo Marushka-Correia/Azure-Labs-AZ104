@@ -34,7 +34,7 @@
 
 the deployment took me about 30 minutes to complete.
 
-## 5) Generate a Root Certificate (this step needs to be done on your computer in powershell: run as administrator) -> steps 5 and 6 are chatGPT guided
+## 5) Generate a Root Certificate (this step needs to be done on your computer in powershell: run as administrator) -> steps 5, 6 ,7 and 8 are chatGPT guided
 New-SelfSignedCertificate -Type Custom -KeySpec Signature `
 -Subject "CN=P2SRootCert" -KeyExportPolicy Exportable `
 -HashAlgorithm sha256 -KeyLength 2048 `
@@ -52,7 +52,7 @@ New-SelfSignedCertificate -Type Custom -KeySpec Signature `
           Save as P2SRootCert.cer
 
 
-## 7) Generate a Client Certificate (required for VPN clients)
+## 7) Generate a Client Certificate ((this step needs to be done on your computer in powershell. required for VPN clients)
 Run in PowerShell:
 $rootCert = Get-ChildItem -Path "Cert:\CurrentUser\My" | Where-Object {$_.Subject -eq "CN=P2SRootCert"}
 New-SelfSignedCertificate -Type Custom -KeySpec Signature `
