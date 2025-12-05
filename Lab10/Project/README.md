@@ -1,6 +1,5 @@
-## Today I set up a full Azure Point-to-Site (P2S) VPN, and this one really clicked for me.
-## For the first time, I clearly understood how a client machine (like my laptop) securely connects to
-## remote servers and resources inside a private network — just like how employees connect to company servers from anywhere.
+## Today I set up a full Azure Point-to-Site (P2S) VPN.
+## For the first time, I clearly understood how a client machine (like my laptop) securely connects to the remote servers and resources inside a private network — just like how employees connect to company servers from anywhere.
 
 ## 1) Create the Virtual Network
 -> Virtual Networks
